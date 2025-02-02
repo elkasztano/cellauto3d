@@ -1,0 +1,17 @@
+[package]
+name = "cellauto3d"
+version = "0.1.0"
+edition = "2021"
+authors = ["elkasztano"]
+description = "3D cellular automata with the Bevy game engine"
+readme = "README.md"
+repository = "https://github.com/elkasztano/cellauto3d"
+
+[dependencies]
+bevy = { version = "0.15.1" }
+bevy_panorbit_camera = "0.21.2"
+clap = { version = "4.5.26", features = ["derive"] }
+colorgrad = "0.7.0"
+rand = "0.8.5"
+rayon = "1.10.0"
+xorwowgen = "0.4.0"
